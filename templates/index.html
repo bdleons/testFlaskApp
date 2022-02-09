@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="title">
+            <span>Tetris</span>
+        </div>
+        <div class="authorInfo">
+            <span>Developed by: Santiago Acosta Meza</span>
+        </div>
+    </header>
+
+    <div class="start">
+        <button id="startButton">START</button>
+    </div>
+
+    <div id="container" style="display:none;">
+        <div id="grid">
+        </div>
+        <div class="menu">
+            <div class="next-figure">
+                <div id="figure-grid">
+                    <img id="preview">
+                </div>
+            </div>
+            <div class="score">
+                <span>SCORE:</span>
+                <span id="score">0</span>
+            </div>
+            <button id="pauseButton">PAUSE</button>
+        </div>
+    </div>
+    <script src="setup.js"></script>
+</body>
+</html>
